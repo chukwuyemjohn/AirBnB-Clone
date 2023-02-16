@@ -1,0 +1,137 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Poppins;
+  background-color:white;
+  border-radius: 10px;
+  
+}
+
+body{
+  background-color: #918E9B;
+}
+
+
+.nav{
+    width: 550px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 5, 0.1);
+    display: flex;
+  }
+  .nav--logo{
+    padding: 20px 20px;
+    max-width: 100px;
+    
+  }
+  .main--img{
+    width: 395.91px;
+    height: 232px;
+    padding: 40px 20px;
+    
+    
+    
+  }
+  .main--description{
+    padding-left: 20px;
+  }
+  .main--heading{
+    
+     width: 347px;
+      height: 40px;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 110%; 
+      text-align: justify;
+      margin-bottom: 16px;
+  }
+  .main--text{
+    font-size: 16px;
+    width: 320px;
+    height: 56px;
+    line-height: 110%;
+    text-align: justify;
+
+  }
+  /* CARD */
+  
+  .cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .card {
+    padding-top: 20px;
+    width: 175px;
+    font-size: 12px;
+    position: relative;
+  
+    
+  }
+  .card--badge{
+     position: absolute;
+     top: 26px;
+     left: 10px;
+     background-color: #FFFFFF;
+     padding: 5px 7px;
+     border-radius: 2px;
+     font-weight: bold;
+  }
+
+.card--sold {
+  position: absolute;
+  top: 10px;
+  left: 28px;
+}
+.card--img{
+   width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+  
+  
+}
+.card--star{
+  padding-right: 4px;
+  width: 14px;
+  height: 14px;
+  
+}
+.card--rating{
+  font-size: 16px;
+  margin: 0;
+}
+.card--rating-country{
+  margin-bottom: 0;
+  color:  #918E9B;
+  font-weight: 300;
+  font-size: 16px
+  
+}
+
+.card--description{
+ display: flex;
+  align-items: center;
+
+   
+}
+.card--name{
+  /* text-align: justify; */
+width: 175px;
+font-weight: 300;
+font-size: 12px
+
+}
+.card--price{
+  font-weight: 600;
+  line-height: 110%;
+  font-size: 12px;
+  text-align: justify;
+  padding-left: 22px
+ }
+ .card--price_person{
+   font-weight: 400;
+ }
